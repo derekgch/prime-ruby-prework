@@ -5,7 +5,7 @@ def prime?(n)
   return false if n <0
   return false if n%2 ==0 || n%3 ==0 || n%5 == 0
 
-  counter =7
+  counter =6
   while counter < n do
     if n%counter == 0
       return false
